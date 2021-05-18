@@ -21,6 +21,149 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/artPieces\/artwork1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 38162,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 33969,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 70260,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork4.jpeg" : {
+      "ft" : 16384,
+      "iS" : 44143,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 49798,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork6.jpeg" : {
+      "ft" : 16384,
+      "iS" : 60212,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footer\/facebook-logo-black-2019.png" : {
+      "ft" : 32768,
+      "iS" : 20037,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/facebook-logo-black-2019.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footer\/insta-logo.png" : {
+      "ft" : 32768,
+      "iS" : 23387,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/insta-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ticketCovers\/s991589125739791599_p90_i6_w2160.jpeg" : {
+      "ft" : 16384,
+      "iS" : 111102,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ticketCovers\/s991589125739791599_p90_i6_w2160.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.31.23 PM.png" : {
+      "ft" : 32768,
+      "iS" : 513202,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.31.23 PM.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.32.23 PM.png" : {
+      "ft" : 32768,
+      "iS" : 201908,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.32.23 PM.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -40,6 +183,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/design\/DelaneyBass-Web2-Final.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/DelaneyBass-Web2-Final.sketch",
+      "oF" : 0
+    },
     "\/design\/structure-tags.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -48,12 +199,52 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
+    "\/dev\/content\/donate.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/donate.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/events.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/events.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/shop.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/shop.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
