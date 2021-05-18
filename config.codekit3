@@ -99,6 +99,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/donate\/gallery.png" : {
+      "ft" : 32768,
+      "iS" : 753081,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/donate\/gallery.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/footer\/facebook-logo-black-2019.png" : {
       "ft" : 32768,
       "iS" : 20037,
@@ -117,6 +130,19 @@
       "iS" : 23387,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/footer\/insta-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 20942,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
