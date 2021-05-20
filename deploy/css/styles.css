@@ -445,7 +445,8 @@ header {
 header > div {
   display: grid;
   padding: 10px;
-  grid-template-columns: 50px 50px auto 50px 50px;
+  max-width: 100%;
+  grid-template-columns: 5, 1fr;
   grid-template-areas: "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
 }
 
@@ -607,16 +608,18 @@ footer > div #social ul li a:visited:active {
 #events {
   background-color: #F8E5D4;
   color: #F8E5D4;
+  display: grid;
+  grid-template-areas: ".events";
 }
 #events > div ul {
+  display: grid;
   list-style-type: none;
-  margin: 0;
-  padding: 0px;
+  width: 100%;
   grid-template-areas: "#herspaceTop" "#peace" "#letsget" "#herspaceBottom";
 }
 @media (min-width: 768px) {
-  #events > div {
-    grid-template-columns: 50px auto;
+  #events > div ul {
+    grid-template-columns: 50% auto;
     grid-template-areas: "#herspaceTop #herspaceTop" "#peace #letsget" "#herspaceBottom #herspaceBottom";
   }
 }
@@ -668,19 +671,39 @@ button {
   margin-bottom: 100px;
 }
 
-#tickets {
-  background-image: URL("img/ticketCovers/ticketsBack.png");
+#tickets > div {
+  grid-area: tickets;
 }
 #tickets > div ul {
+  display: grid;
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  grid-template-columns: 50px auto;
+  grid-template-columns: auto;
   grid-template-areas: "#womens" "#artistsOfColor" "#peaceofme";
 }
 @media (min-width: 768px) {
-  #tickets > div {
-    grid-template-columns: 50px auto 50px;
+  #tickets > div ul {
+    display: grid;
+    grid-template-columns: 3, 1fr;
     grid-template-areas: "#womens #artistsOfColor #peaceofme";
+  }
+}
+
+#artwork > div {
+  grid-area: artwork;
+}
+#artwork > div ul {
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "#piece1 #piece2" "#piece3 #piece4" "#piece5 #piece6";
+}
+@media (min-width: 768px) {
+  #artwork > div ul {
+    grid-template-columns: 3, 1fr;
+    grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
   }
 }

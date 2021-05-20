@@ -1,24 +1,30 @@
 #events {
     background-color: #F8E5D4;
     color: #F8E5D4;
+    display: grid;
+    grid-template-areas: ".events";
     >div{
         
         ul {
+            display: grid;
             list-style-type: none;
-            margin: 0;
-            padding: 0px;
+            width: 100%;
             grid-template-areas: 
             "#herspaceTop"
             "#peace"
             "#letsget"
             "#herspaceBottom";
-        }
-        @include md {
-            grid-template-columns: 50px auto ;
-            grid-template-areas: 
-            "#herspaceTop #herspaceTop"
-            "#peace #letsget"
-            "#herspaceBottom #herspaceBottom";
+
+            @include md {
+           
+                grid-template-columns: 50% auto ;
+                grid-template-areas: 
+                "#herspaceTop #herspaceTop"
+                "#peace #letsget"
+                "#herspaceBottom #herspaceBottom"
+                ;
+            }
+    
         }
 }
 } 

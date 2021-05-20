@@ -1,26 +1,56 @@
 #tickets{
-    background-image: URL('img/ticketCovers/ticketsBack.png');
+    
     >div{
+        grid-area: tickets;
             ul{
+                    display: grid;
                     list-style-type: none;
                     margin: 0;
                     padding: 0px;
-                    grid-template-columns: 50px auto;
+                    grid-template-columns: auto;
                     grid-template-areas: 
                     "#womens"
                     "#artistsOfColor"
                     "#peaceofme"
                     ;
+
+                    @include md {
+                        display: grid;
+                        grid-template-columns: (3, 1fr) ;
+                        grid-template-areas: 
+                        "#womens #artistsOfColor #peaceofme";
+    
+    
                 }
-                @include md {
-                    grid-template-columns: 50px auto 50px ;
-                    grid-template-areas: 
-                    "#womens #artistsOfColor #peaceofme";
-
-
-            }
+    
+                }
         }
 }
 #artwork{
+    >div{
+        grid-area: artwork;
+        ul{
+                display: grid;
+                list-style-type: none;
+                margin: 0;
+                padding: 0px;
+                grid-template-columns: 50% auto;
+                grid-template-areas: 
+                "#piece1 #piece2"
+                "#piece3 #piece4"
+                "#piece5 #piece6"
+                ;
+
+                @include md {
+                    grid-template-columns: (3, 1fr) ;
+                    grid-template-areas: 
+                    "#piece1 #piece2 #piece3"
+                    "#piece4 #piece5 #piece6";
+
+
+            }
+
+            }
+    }
 
 }
