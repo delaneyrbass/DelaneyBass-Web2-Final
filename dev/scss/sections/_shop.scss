@@ -1,0 +1,21 @@
+#tickets{
+    background-color: #F8E5D4;
+    ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0px;
+            grid-template-columns: 50px auto;
+            grid-template-areas: 
+            "#womens"
+            "#artistsOfColor"
+            "#peaceofme"
+            ;
+        }
+        @include md {
+            grid-template-columns: 50px auto 50px ;
+            grid-template-areas: 
+            "#womens #artistsOfColor #peaceofme";
+
+
+    }
+}
