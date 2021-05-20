@@ -395,19 +395,7 @@ p {
 ============= */
 button {
   cursor: pointer;
-}
-
-.yellow-button {
-  background-color: #FFD205;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 10px;
-  transition: 0.25s;
-}
-.yellow-button:hover {
-  background-color: #000;
-  color: #fff;
+  border-style: none;
 }
 
 /* =============
@@ -660,6 +648,8 @@ button {
 
 #donate {
   text-align: center;
+  padding: 0%;
+  margin: 0%;
 }
 #donate img {
   max-width: 100%;
@@ -667,10 +657,14 @@ button {
 #donate p {
   margin: 50px;
 }
-#donate button {
+#donate #donbutt {
+  padding: 10px;
   margin-bottom: 100px;
 }
 
+#tickets {
+  background-color: #F8E5D4;
+}
 #tickets > div {
   grid-area: tickets;
   align-items: center;
@@ -692,20 +686,26 @@ button {
 }
 #tickets #purple {
   background-color: #A877D0;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }
 #tickets #yellow {
   background-color: #F1B458;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }
 #tickets #green {
   background-color: #398A5F;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }
 
+#artwork {
+  background-color: #F8E5D4;
+}
 #artwork > div {
   grid-area: artwork;
 }
@@ -726,16 +726,19 @@ button {
 }
 #artwork #purple {
   background-color: #A877D0;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }
 #artwork #yellow {
   background-color: #F1B458;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }
 #artwork #green {
   background-color: #398A5F;
+  color: #F8E5D4;
   padding: 5px;
   margin: 10px;
 }

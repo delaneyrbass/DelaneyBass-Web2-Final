@@ -1,4 +1,6 @@
 #artwork{
+    background-color: #F8E5D4;
+
     >div{
         grid-area: artwork;
         ul{
@@ -29,17 +31,21 @@
 
     #purple{
         background-color: #A877D0;
+        color: #F8E5D4;
         padding: 5px;
         margin: 10px;
     }
     #yellow{
         background-color: #F1B458;
+        color: #F8E5D4;
         padding: 5px;
         margin: 10px;
     }
     #green{
         background-color: #398A5F;
+        color: #F8E5D4;
         padding: 5px;
         margin: 10px;
     }
+
 }
