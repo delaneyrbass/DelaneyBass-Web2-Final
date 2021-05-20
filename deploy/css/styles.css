@@ -669,9 +669,9 @@ button {
 }
 
 #tickets {
-  background-color: #F8E5D4;
+  background-image: URL("img/ticketCovers/ticketsBack.png");
 }
-#tickets ul {
+#tickets > div ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -679,7 +679,7 @@ button {
   grid-template-areas: "#womens" "#artistsOfColor" "#peaceofme";
 }
 @media (min-width: 768px) {
-  #tickets {
+  #tickets > div {
     grid-template-columns: 50px auto 50px;
     grid-template-areas: "#womens #artistsOfColor #peaceofme";
   }
