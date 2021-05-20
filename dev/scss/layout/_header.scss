@@ -3,9 +3,11 @@
 ============= */
 header {
 	background-color: #F8E5D4;
-    section {
+    >div {
         display: grid;
         padding: 10px;
-        grid-template-columns: auto;
+        grid-template-columns: 50px 50px auto 50px 50px;
+        grid-template-areas: 
+        "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
     }
 }

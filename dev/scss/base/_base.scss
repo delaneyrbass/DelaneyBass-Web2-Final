@@ -15,14 +15,5 @@ ul {
     }
 }
 
-.content {
-    margin-bottom: 24px;
+h1{font-family: 'Bebas Neue', cursive;}
 
-    @include md {
-        margin-bottom: 32px;
-    }
-
-    @include xl {
-        margin-bottom: 64px;
-    }
-}

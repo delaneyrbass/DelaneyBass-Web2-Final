@@ -1,10 +1,23 @@
 #events {
+    background-color: #F8E5D4;
     >div{
         
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0px;
+            grid-template-areas: 
+            "#herspaceTop"
+            "#peace"
+            "#letsget"
+            "#herspaceBottom";
+        }
+        @include md {
+            grid-template-columns: 50px auto ;
+            grid-template-areas: 
+            "#herspaceTop #herspaceTop"
+            "#peace #letsget"
+            "#herspaceBottom #herspaceBottom";
         }
         // @include md {
         //     grid-template-columns: 50% auto;
@@ -14,3 +27,34 @@
         // }
 }
 } 
+#herspaceTop{
+    background-color: #A877D0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #462D5A;
+    
+}
+#letsget{
+    background-color: #F1B458;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #9D7336;
+}
+#peace{
+    background-color: #398A5F;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #276143;
+}
+#herspaceBottom{
+    background-color: #EBA5E8;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #7B4F79;
+}
+button{ 
+    background-color: #F8E5D4;
+    padding: 5px;
+    margin: 10px;
+
+}

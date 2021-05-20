@@ -365,18 +365,8 @@ ul li {
   list-style: none;
 }
 
-.content {
-  margin-bottom: 24px;
-}
-@media (min-width: 768px) {
-  .content {
-    margin-bottom: 32px;
-  }
-}
-@media (min-width: 1200px) {
-  .content {
-    margin-bottom: 64px;
-  }
+h1 {
+  font-family: "Bebas Neue", cursive;
 }
 
 /* =============
@@ -452,10 +442,11 @@ a {
 header {
   background-color: #F8E5D4;
 }
-header section {
+header > div {
   display: grid;
   padding: 10px;
-  grid-template-columns: auto;
+  grid-template-columns: 50px 50px auto 50px 50px;
+  grid-template-areas: "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
 }
 
 /* =============
@@ -613,8 +604,52 @@ footer > div #social ul li a:visited:active {
   color: #FFD205;
 }
 
+#events {
+  background-color: #F8E5D4;
+}
 #events > div ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
+  grid-template-areas: "#herspaceTop" "#peace" "#letsget" "#herspaceBottom";
+}
+@media (min-width: 768px) {
+  #events > div {
+    grid-template-columns: 50px auto;
+    grid-template-areas: "#herspaceTop #herspaceTop" "#peace #letsget" "#herspaceBottom #herspaceBottom";
+  }
+}
+
+#herspaceTop {
+  background-color: #A877D0;
+  padding: 20px;
+  text-align: center;
+  box-shadow: #462D5A;
+}
+
+#letsget {
+  background-color: #F1B458;
+  padding: 20px;
+  text-align: center;
+  box-shadow: #9D7336;
+}
+
+#peace {
+  background-color: #398A5F;
+  padding: 20px;
+  text-align: center;
+  box-shadow: #276143;
+}
+
+#herspaceBottom {
+  background-color: #EBA5E8;
+  padding: 20px;
+  text-align: center;
+  box-shadow: #7B4F79;
+}
+
+button {
+  background-color: #F8E5D4;
+  padding: 5px;
+  margin: 10px;
 }
