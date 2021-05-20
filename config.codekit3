@@ -229,6 +229,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/header\/logo2.png" : {
+      "ft" : 32768,
+      "iS" : 6998,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/ticketCovers\/letsget.png" : {
       "ft" : 32768,
       "iS" : 51337,
