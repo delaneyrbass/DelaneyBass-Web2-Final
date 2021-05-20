@@ -34,6 +34,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/artPieces\/artwork1.png" : {
+      "ft" : 32768,
+      "iS" : 53559,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/artPieces\/artwork2.jpeg" : {
       "ft" : 16384,
       "iS" : 33969,
@@ -43,6 +56,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork2.png" : {
+      "ft" : 32768,
+      "iS" : 68968,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -60,6 +86,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/artPieces\/artwork3.png" : {
+      "ft" : 32768,
+      "iS" : 83692,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/artPieces\/artwork4.jpeg" : {
       "ft" : 16384,
       "iS" : 44143,
@@ -69,6 +108,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork4.png" : {
+      "ft" : 32768,
+      "iS" : 55038,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -86,6 +138,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/artPieces\/artwork5.png" : {
+      "ft" : 32768,
+      "iS" : 56076,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/artPieces\/artwork6.jpeg" : {
       "ft" : 16384,
       "iS" : 60212,
@@ -95,6 +160,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/artPieces\/artwork6.png" : {
+      "ft" : 32768,
+      "iS" : 42232,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/artPieces\/artwork6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -151,24 +229,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ticketCovers\/s991589125739791599_p90_i6_w2160.jpeg" : {
-      "ft" : 16384,
-      "iS" : 111102,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/ticketCovers\/s991589125739791599_p90_i6_w2160.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.31.23 PM.png" : {
+    "\/deploy\/img\/ticketCovers\/letsget.png" : {
       "ft" : 32768,
-      "iS" : 513202,
+      "iS" : 51337,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.31.23 PM.png",
+      "oAP" : "\/deploy\/img\/ticketCovers\/letsget.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -177,11 +242,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.32.23 PM.png" : {
+    "\/deploy\/img\/ticketCovers\/peaceofme.png" : {
       "ft" : 32768,
-      "iS" : 201908,
+      "iS" : 40436,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ticketCovers\/Screen Shot 2021-05-18 at 2.32.23 PM.png",
+      "oAP" : "\/deploy\/img\/ticketCovers\/peaceofme.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -195,6 +260,19 @@
       "iS" : 8711,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/ticketCovers\/ticketsBack.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ticketCovers\/womens.png" : {
+      "ft" : 32768,
+      "iS" : 63835,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ticketCovers\/womens.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -260,6 +338,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/shop.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/tickets.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/tickets.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -490,6 +576,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_shop.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_tickets.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_tickets.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

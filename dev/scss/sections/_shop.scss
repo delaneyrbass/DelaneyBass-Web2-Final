@@ -1,31 +1,3 @@
-#tickets{
-    
-    >div{
-        grid-area: tickets;
-            ul{
-                    display: grid;
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0px;
-                    grid-template-columns: auto;
-                    grid-template-areas: 
-                    "#womens"
-                    "#artistsOfColor"
-                    "#peaceofme"
-                    ;
-
-                    @include md {
-                        display: grid;
-                        grid-template-columns: (3, 1fr) ;
-                        grid-template-areas: 
-                        "#womens #artistsOfColor #peaceofme";
-    
-    
-                }
-    
-                }
-        }
-}
 #artwork{
     >div{
         grid-area: artwork;
@@ -42,7 +14,8 @@
                 ;
 
                 @include md {
-                    grid-template-columns: (3, 1fr) ;
+                    margin: 20px;
+                    grid-template-columns: repeat(3, 1fr) ;
                     grid-template-areas: 
                     "#piece1 #piece2 #piece3"
                     "#piece4 #piece5 #piece6";
@@ -51,6 +24,22 @@
             }
 
             }
+        
     }
 
+    #purple{
+        background-color: #A877D0;
+        padding: 5px;
+        margin: 10px;
+    }
+    #yellow{
+        background-color: #F1B458;
+        padding: 5px;
+        margin: 10px;
+    }
+    #green{
+        background-color: #398A5F;
+        padding: 5px;
+        margin: 10px;
+    }
 }

@@ -673,6 +673,7 @@ button {
 
 #tickets > div {
   grid-area: tickets;
+  align-items: center;
 }
 #tickets > div ul {
   display: grid;
@@ -685,9 +686,24 @@ button {
 @media (min-width: 768px) {
   #tickets > div ul {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "#womens #artistsOfColor #peaceofme";
   }
+}
+#tickets #purple {
+  background-color: #A877D0;
+  padding: 5px;
+  margin: 10px;
+}
+#tickets #yellow {
+  background-color: #F1B458;
+  padding: 5px;
+  margin: 10px;
+}
+#tickets #green {
+  background-color: #398A5F;
+  padding: 5px;
+  margin: 10px;
 }
 
 #artwork > div {
@@ -703,7 +719,23 @@ button {
 }
 @media (min-width: 768px) {
   #artwork > div ul {
-    grid-template-columns: 3, 1fr;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
   }
+}
+#artwork #purple {
+  background-color: #A877D0;
+  padding: 5px;
+  margin: 10px;
+}
+#artwork #yellow {
+  background-color: #F1B458;
+  padding: 5px;
+  margin: 10px;
+}
+#artwork #green {
+  background-color: #398A5F;
+  padding: 5px;
+  margin: 10px;
 }
