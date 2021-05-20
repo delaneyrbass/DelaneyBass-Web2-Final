@@ -455,7 +455,7 @@ header {
 header section {
   display: grid;
   padding: 10px;
-  grid-template-columns: 50px auto;
+  grid-template-columns: auto;
 }
 
 /* =============
@@ -611,4 +611,10 @@ footer > div #social ul li a:link:hover, footer > div #social ul li a:link:activ
 footer > div #social ul li a:visited:hover,
 footer > div #social ul li a:visited:active {
   color: #FFD205;
+}
+
+#events > div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
 }
