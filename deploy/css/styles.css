@@ -434,7 +434,7 @@ header > div {
   display: grid;
   padding: 10px;
   max-width: 100%;
-  grid-template-columns: 5, 1fr;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-areas: "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
 }
 
@@ -598,6 +598,8 @@ footer > div #social ul li a:visited:active {
   color: #F8E5D4;
   display: grid;
   grid-template-areas: ".events";
+  display: flex;
+  flex-direction: column;
 }
 #events > div ul {
   display: grid;
