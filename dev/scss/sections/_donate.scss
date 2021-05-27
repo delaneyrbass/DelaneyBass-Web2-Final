@@ -10,8 +10,10 @@
         
     }
 #donbutt{
-    padding: 15px;
-        margin-bottom: 100px;
+    padding: 25px;
+        margin-bottom: 50px;
+        background-color: #F1B458;
+        font-size: x-large;
     }
 }
 h1{
@@ -20,3 +22,11 @@ h1{
 #logo{
     margin: 40px;
 } 
+#social{
+    display: flex;
+    justify-content: center;
+
+    img{
+        margin-bottom: 20px;
+    } 
+}

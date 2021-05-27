@@ -55,6 +55,7 @@
         color: #F8E5D4;
         padding: 15px;
         margin: 10px;
+
     }
     #yellow{
         background-color: #F1B458;
@@ -68,5 +69,16 @@
         padding: 15px;
         margin: 10px;
     }
+    #social{
+        display: flex;
+        justify-content: center;
+    
+        img{
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        } 
+    }
+
 
 }

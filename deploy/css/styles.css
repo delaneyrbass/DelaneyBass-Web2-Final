@@ -398,6 +398,11 @@ button {
   border-style: none;
   padding: 15px;
   border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: grey;
 }
 
 /* =============
@@ -669,6 +674,15 @@ button {
   border-radius: 20px;
 }
 
+#social {
+  display: flex;
+  justify-content: center;
+}
+#social img {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 #donate {
   text-align: center;
   padding: 0%;
@@ -681,8 +695,10 @@ button {
   margin: 50px;
 }
 #donate #donbutt {
-  padding: 15px;
-  margin-bottom: 100px;
+  padding: 25px;
+  margin-bottom: 50px;
+  background-color: #F1B458;
+  font-size: x-large;
 }
 
 h1 {
@@ -691,6 +707,14 @@ h1 {
 
 #logo {
   margin: 40px;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+}
+#social img {
+  margin-bottom: 20px;
 }
 
 #tickets {
@@ -708,7 +732,7 @@ h1 {
   margin: 0;
   padding: 0px;
   grid-template-columns: auto;
-  grid-template-areas: "#womens" "#artistsOfColor" "#peaceofme";
+  grid-template-areas: "#womens" "#purple" "#artistsOfColor" "#yellow" "#peaceofme" "#green";
 }
 @media (min-width: 768px) {
   #tickets > div ul {
@@ -804,4 +828,13 @@ h1 {
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+}
+#artwork #social {
+  display: flex;
+  justify-content: center;
+}
+#artwork #social img {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
