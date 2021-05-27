@@ -396,6 +396,8 @@ p {
 button {
   cursor: pointer;
   border-style: none;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 /* =============
@@ -619,6 +621,7 @@ footer > div #social ul li a:visited:active {
   padding: 20px;
   text-align: center;
   box-shadow: #462D5A;
+  border-radius: 20px;
 }
 
 #letsget {
@@ -626,6 +629,7 @@ footer > div #social ul li a:visited:active {
   padding: 20px;
   text-align: center;
   box-shadow: #9D7336;
+  border-radius: 20px;
 }
 
 #peace {
@@ -633,6 +637,7 @@ footer > div #social ul li a:visited:active {
   padding: 20px;
   text-align: center;
   box-shadow: #276143;
+  border-radius: 20px;
 }
 
 #herspaceBottom {
@@ -640,12 +645,14 @@ footer > div #social ul li a:visited:active {
   padding: 20px;
   text-align: center;
   box-shadow: #7B4F79;
+  border-radius: 20px;
 }
 
 button {
   background-color: #F8E5D4;
-  padding: 5px;
-  margin: 10px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 #donate {
@@ -660,7 +667,7 @@ button {
   margin: 50px;
 }
 #donate #donbutt {
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 100px;
 }
 
@@ -674,6 +681,13 @@ h1 {
 
 #tickets {
   background-color: #F8E5D4;
+  padding: 20px;
+  text-align: center;
+}
+#tickets .rectangle {
+  width: 200px;
+  height: 100px;
+  background: #EBA5E8;
 }
 #tickets > div {
   grid-area: tickets;
@@ -697,24 +711,26 @@ h1 {
 #tickets #purple {
   background-color: #A877D0;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }
 #tickets #yellow {
   background-color: #F1B458;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }
 #tickets #green {
   background-color: #398A5F;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }
 
 #artwork {
   background-color: #F8E5D4;
+  padding: 20px;
+  text-align: center;
 }
 #artwork > div {
   grid-area: artwork;
@@ -722,7 +738,7 @@ h1 {
 #artwork > div ul {
   display: grid;
   list-style-type: none;
-  margin: 0;
+  margin: 10px;
   padding: 0px;
   grid-template-columns: 50% auto;
   grid-template-areas: "#piece1 #piece2" "#piece3 #piece4" "#piece5 #piece6";
@@ -734,21 +750,31 @@ h1 {
     grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
   }
 }
+#artwork #fullback {
+  background-color: #A877D0;
+  border-radius: 20px;
+  padding: 40px;
+}
+#artwork #pieces {
+  background-color: #F8E5D4;
+  border-radius: 20px;
+  padding: 40px;
+}
 #artwork #purple {
   background-color: #A877D0;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }
 #artwork #yellow {
   background-color: #F1B458;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }
 #artwork #green {
   background-color: #398A5F;
   color: #F8E5D4;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
 }

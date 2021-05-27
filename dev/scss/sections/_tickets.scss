@@ -1,10 +1,17 @@
 #tickets{
     background-color: #F8E5D4;
+    padding: 20px;
+    text-align: center;
     // background-image: url(../img/ticketCovers/ticketsBack.png);
     // display: flex;
     // justify-content: flex-start;
     // width: 100%;
     // background-position: center;
+    .rectangle{
+        width: 200px;
+        height: 100px;
+        background: #EBA5E8;
+    }
     >div{
         grid-area: tickets;
         align-items: center;
@@ -34,19 +41,20 @@
         #purple{
             background-color: #A877D0;
             color: #F8E5D4;
-            padding: 5px;
+            padding: 15px;
             margin: 10px;
+
         }
         #yellow{
             background-color: #F1B458;
             color: #F8E5D4;
-            padding: 5px;
+            padding: 15px;
             margin: 10px;
         }
         #green{
             background-color: #398A5F;
             color: #F8E5D4;
-            padding: 5px;
+            padding: 15px;
             margin: 10px;
         }
 }
