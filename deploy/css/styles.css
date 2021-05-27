@@ -401,10 +401,6 @@ button {
   transition-duration: 0.4s;
 }
 
-button:hover {
-  background-color: grey;
-}
-
 /* =============
     Forms
 ============= */

@@ -5,6 +5,7 @@
     >div{
         
         ul {
+ 
             display: grid;
             list-style-type: none;
             width: 100%;
@@ -15,13 +16,23 @@
             "#herspaceBottom";
 
             @include md {
-           
+
+
                 grid-template-columns: 50% auto ;
                 grid-template-areas: 
                 "#herspaceTop #herspaceTop"
                 "#peace #letsget"
                 "#herspaceBottom #herspaceBottom"
                 ;
+
+
+                // grid-template-columns: repeat(5,1fr) ;
+                // grid-template-areas: 
+                // "#herspaceTop #herspaceTop #herspaceTop . . "
+                // "#peace #peace . #letsget #letsget"
+                // ". . #herspaceBottom #herspaceBottom #herspaceBottom"
+                // ;
+
 
             }
     
