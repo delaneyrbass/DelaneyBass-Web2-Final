@@ -684,11 +684,6 @@ h1 {
   padding: 20px;
   text-align: center;
 }
-#tickets .rectangle {
-  width: 200px;
-  height: 100px;
-  background: #EBA5E8;
-}
 #tickets > div {
   grid-area: tickets;
   align-items: center;
@@ -707,6 +702,19 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "#womens #artistsOfColor #peaceofme";
   }
+}
+#tickets #toplogo {
+  padding: 40px;
+}
+#tickets #fullback {
+  background-color: #EBA5E8;
+  border-radius: 20px;
+  padding: 40px;
+}
+#tickets #blocks {
+  background-color: #F8E5D4;
+  border-radius: 20px;
+  padding: 40px;
 }
 #tickets #purple {
   background-color: #A877D0;
@@ -732,6 +740,10 @@ h1 {
   padding: 20px;
   text-align: center;
 }
+#artwork img {
+  max-width: 100%;
+  padding: 10px;
+}
 #artwork > div {
   grid-area: artwork;
 }
@@ -739,13 +751,14 @@ h1 {
   display: grid;
   list-style-type: none;
   margin: 10px;
-  padding: 0px;
+  padding: 20px;
   grid-template-columns: 50% auto;
   grid-template-areas: "#piece1 #piece2" "#piece3 #piece4" "#piece5 #piece6";
 }
 @media (min-width: 768px) {
   #artwork > div ul {
     margin: 20px;
+    padding: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
   }

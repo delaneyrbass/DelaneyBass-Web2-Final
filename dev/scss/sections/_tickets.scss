@@ -7,11 +7,7 @@
     // justify-content: flex-start;
     // width: 100%;
     // background-position: center;
-    .rectangle{
-        width: 200px;
-        height: 100px;
-        background: #EBA5E8;
-    }
+
     >div{
         grid-area: tickets;
         align-items: center;
@@ -38,6 +34,24 @@
     
                 }
         }
+
+        #toplogo{
+            padding: 40px;
+        }
+
+        //----events background----//
+        #fullback{
+            background-color: #EBA5E8;
+            border-radius: 20px;
+            padding: 40px;
+        }
+        #blocks{
+            background-color: #F8E5D4;
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        //-----buttons----// 
         #purple{
             background-color: #A877D0;
             color: #F8E5D4;
