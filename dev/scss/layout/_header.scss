@@ -3,12 +3,18 @@
 ============= */
 header {
 	background-color: #F8E5D4;
-    >div {
-        display: grid;
-        padding: 10px;
-        max-width: 100%;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-areas: 
-        "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
+    ul {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+
+        // display: grid;
+        // padding: 10px;
+        // max-width: 100%;
+        // grid-template-columns: 20% 20% 20% 20% 20%;
+        // grid-template-areas: 
+        // "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
     }
 }
