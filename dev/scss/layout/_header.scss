@@ -3,24 +3,90 @@
 ============= */
 header {
 	background-color: #F8E5D4;
-    ul {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        font-size: small;
+    >div {
+        display: grid;
+        grid-template-areas: 
+        "burger survival"
+        "nav nav";
+        grid-template-columns: 20% auto;
 
-        @include md {
-           
-            font-size: medium;
+        @include lg {
+            grid-template-areas: "nav survival";
+            grid-template-columns: 20% auto;
         }
 
-        // display: grid;
-        // padding: 10px;
-        // max-width: 100%;
-        // grid-template-columns: 20% 20% 20% 20% 20%;
-        // grid-template-areas: 
-        // "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
+        #button-container {
+            grid-area: survival;
+            padding: 10px;
+            text-align: right;
+
+           button {
+                background-color: yellow;
+                border-radius: 23px;
+                color: black;
+                display: inline-block;
+                font-size: rem-calc(18);
+                font-weight: 700;
+                padding: 10px 20px;
+                border: none;
+                transition: 0.25s;
+
+                &:hover {
+                    background-color: black;
+                    color: #F8E5D4;
+                }
+            }
+
+            
+        }
+
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            padding: 10px;
+
+            @include lg {
+                display: none !important;
+            }
+
+            i {
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
+        }
+
+        #nav-container {
+            background-color: #F8E5D4;
+            display: none;
+            grid-area: nav;
+            padding: 20px 10px 10px;
+
+            @include lg {
+                background-color: white;
+                display: block !important;
+            }
+        }
     }
+
+    // ul {
+    //     display: flex;
+    //     flex-direction: row; 
+    //     justify-content: space-around;
+    //     align-items: center;
+    //     padding: 20px;
+    //     font-size: small;
+
+    //     @include md {
+           
+    //         font-size: medium;
+    //     }
+
+    //     // display: grid;
+    //     // padding: 10px;
+    //     // max-width: 100%;
+    //     // grid-template-columns: 20% 20% 20% 20% 20%;
+    //     // grid-template-areas: 
+    //     // "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
+    // }
 }
