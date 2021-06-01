@@ -4,11 +4,6 @@
 header {
 	background-color: #F8E5D4;
     // >div {
-    //     display: grid;
-    //     grid-template-areas: 
-    //     "burger survival"
-    //     "nav nav";
-    //     grid-template-columns: 20% auto;
 
     //     @include lg {
     //         grid-template-areas: "nav survival";
@@ -40,15 +35,7 @@ header {
             
     //     }
 
-    //     #burger-container {
-    //         align-items: center;
-    //         display: flex;
-    //         grid-area: burger;
-    //         padding: 10px;
-
-    //         @include lg {
-    //             display: none !important;
-    //         }
+  
 
     //         i {
     //             cursor: pointer;
@@ -70,17 +57,32 @@ header {
     // }
 
     ul {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        font-size: small;
+        display: grid;
+        grid-template-areas: 
+        "#burger-container #logo"
+        ;
+        grid-template-columns: 20% auto;
+
 
         @include md {
-           
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            font-size: small;    
             font-size: medium;
         }
+
+        // #burger-container {
+        //     align-items: center;
+        //     display: flex;
+        //     grid-area: #burger-container;
+        //     padding: 10px;
+
+        //     @include lg {
+        //         display: none !important;
+        //     }
 
     //     // display: grid;
     //     // padding: 10px;
@@ -88,5 +90,6 @@ header {
     //     // grid-template-columns: 20% 20% 20% 20% 20%;
     //     // grid-template-areas: 
     //     // "#eventsLink #donateLink #imageLogo #storeLink #loginLink";
+    // }
     }
 }
