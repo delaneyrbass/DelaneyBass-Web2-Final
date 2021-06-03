@@ -434,16 +434,14 @@ header {
   background-color: #F8E5D4;
 }
 header ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-  font-size: small;
+  display: grid;
+  grid-template-areas: "burger survival" "nav nav";
+  grid-template-columns: 20% auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   header ul {
-    font-size: medium;
+    grid-template-areas: "nav survival";
+    grid-template-columns: 20% auto;
   }
 }
 

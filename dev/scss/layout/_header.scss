@@ -4,17 +4,28 @@
 header {
 	background-color: #F8E5D4;
     ul {
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        font-size: small;
+        display: grid;
+        grid-template-areas: 
+        "burger survival"
+        "nav nav";
+        grid-template-columns: 20% auto;
 
-        @include md {
-           
-            font-size: medium;
+        @include lg {
+            grid-template-areas: "nav survival";
+            grid-template-columns: 20% auto;
         }
+
+        // display: flex;
+        // flex-direction: row; 
+        // justify-content: space-around;
+        // align-items: center;
+        // padding: 20px;
+        // font-size: small;
+
+        // @include md {
+           
+        //     font-size: medium;
+        // }
 
         // display: grid;
         // padding: 10px;
