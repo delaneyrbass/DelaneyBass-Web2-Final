@@ -3,6 +3,7 @@
 ============= */
 header {
 	background-color: #F8E5D4;
+<<<<<<< Updated upstream
     // >div {
 
     //     @include lg {
@@ -72,6 +73,18 @@ header {
             padding: 20px;
             font-size: small;    
             font-size: medium;
+=======
+    >div {
+        display: grid;
+        grid-template-areas: 
+        "EVENTS DONATE logo STORE LOGIN"
+       ;
+        grid-template-columns: repeat(5, 1fr);
+
+        @include lg {
+            grid-template-areas: "nav survival";
+            grid-template-columns: 20% auto;
+>>>>>>> Stashed changes
         }
 
         // #burger-container {

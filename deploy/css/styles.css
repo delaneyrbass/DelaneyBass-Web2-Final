@@ -433,6 +433,7 @@ a {
 header {
   background-color: #F8E5D4;
 }
+<<<<<<< Updated upstream
 header ul {
   display: grid;
   grid-template-areas: "#burger-container #logo";
@@ -447,6 +448,17 @@ header ul {
     padding: 20px;
     font-size: small;
     font-size: medium;
+=======
+header > div {
+  display: grid;
+  grid-template-areas: "EVENTS DONATE logo STORE LOGIN";
+  grid-template-columns: repeat(5, 1fr);
+}
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-areas: "nav survival";
+    grid-template-columns: 20% auto;
+>>>>>>> Stashed changes
   }
 }
 
