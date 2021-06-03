@@ -435,14 +435,27 @@ header {
 }
 header ul {
   display: grid;
-  grid-template-areas: "burger survival" "nav nav";
-  grid-template-columns: 20% auto;
+  grid-template-areas: "EVENTS DONATE logo STORE LOGIN";
+  grid-template-columns: repeat(5 1fr);
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+header ul li {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  header ul li {
+    padding: 50px;
+  }
 }
 @media (min-width: 1024px) {
-  header ul {
-    grid-template-areas: "nav survival";
-    grid-template-columns: 20% auto;
+  header ul li {
+    padding: 70px;
   }
+}
+header ul button {
+  text-decoration: none;
 }
 
 /* =============

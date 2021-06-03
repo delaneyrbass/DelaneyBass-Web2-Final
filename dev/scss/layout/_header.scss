@@ -6,14 +6,36 @@ header {
     ul {
         display: grid;
         grid-template-areas: 
-        "burger survival"
-        "nav nav";
-        grid-template-columns: 20% auto;
+        "EVENTS DONATE logo STORE LOGIN"
+        ;
+        grid-template-columns: repeat(5 1fr);
+        align-items: center;
+        padding: 20px;
+        justify-content: center;
 
-        @include lg {
-            grid-template-areas: "nav survival";
-            grid-template-columns: 20% auto;
+        li{
+            padding: 20px;
         }
+
+        @include md{
+            li{
+                padding: 50px;
+            }
+        }
+
+        @include lg{
+            li{
+                padding: 70px;
+            }
+        }
+
+        button{
+            text-decoration: none;
+        }
+        // @include lg {
+        //     grid-template-areas: "nav survival";
+        //     grid-template-columns: 20% auto;
+        // }
 
         // display: flex;
         // flex-direction: row; 
