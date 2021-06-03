@@ -569,47 +569,47 @@ footer > div #newsletter form button {
   margin-top: 16px;
 }
 @media (min-width: 768px) {
-  footer > div #social {
+  footer > div #socialfoot {
     grid-area: social;
     margin-top: -100px;
   }
 }
 @media (min-width: 1024px) {
-  footer > div #social {
+  footer > div #socialfoot {
     margin-top: 0px;
   }
 }
 @media (min-width: 1024px) {
-  footer > div #social h1 {
+  footer > div #socialfoot h1 {
     text-align: right;
   }
 }
-footer > div #social ul {
+footer > div #socialfoot ul {
   border: none;
   display: flex;
 }
 @media (min-width: 1024px) {
-  footer > div #social ul {
+  footer > div #socialfoot ul {
     justify-content: flex-end;
   }
 }
-footer > div #social ul li {
+footer > div #socialfoot ul li {
   margin-right: 16px;
 }
 @media (min-width: 1024px) {
-  footer > div #social ul li {
+  footer > div #socialfoot ul li {
     margin-left: 16px;
     margin-right: 0px;
   }
 }
-footer > div #social ul li a:link,
-footer > div #social ul li a:visited {
+footer > div #socialfoot ul li a:link,
+footer > div #socialfoot ul li a:visited {
   color: #fff;
   font-size: 1.875rem;
 }
-footer > div #social ul li a:link:hover, footer > div #social ul li a:link:active,
-footer > div #social ul li a:visited:hover,
-footer > div #social ul li a:visited:active {
+footer > div #socialfoot ul li a:link:hover, footer > div #socialfoot ul li a:link:active,
+footer > div #socialfoot ul li a:visited:hover,
+footer > div #socialfoot ul li a:visited:active {
   color: #FFD205;
 }
 
@@ -712,11 +712,12 @@ h1 {
   margin: 40px;
 }
 
-#social {
+#social2 {
   display: flex;
   justify-content: center;
 }
-#social img {
+#social2 img {
+  padding: 20px;
   margin-bottom: 20px;
 }
 
@@ -804,7 +805,7 @@ h1 {
     grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
   }
 }
-#artwork #fullback {
+#artwork #fullback2 {
   background-color: #A877D0;
   border-radius: 20px;
   padding: 40px;
@@ -814,29 +815,47 @@ h1 {
   border-radius: 20px;
   padding: 40px;
 }
-#artwork #purple {
+#artwork #purple2 {
   background-color: #A877D0;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
 }
-#artwork #yellow {
+#artwork #yellow2 {
   background-color: #F1B458;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
 }
-#artwork #green {
+#artwork #green2 {
   background-color: #398A5F;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
 }
-#artwork #social {
+#artwork #purple3 {
+  background-color: #A877D0;
+  color: #F8E5D4;
+  padding: 15px;
+  margin: 10px;
+}
+#artwork #yellow3 {
+  background-color: #F1B458;
+  color: #F8E5D4;
+  padding: 15px;
+  margin: 10px;
+}
+#artwork #green3 {
+  background-color: #398A5F;
+  color: #F8E5D4;
+  padding: 15px;
+  margin: 10px;
+}
+#artwork #social3 {
   display: flex;
   justify-content: center;
 }
-#artwork #social img {
+#artwork #social3 img {
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
