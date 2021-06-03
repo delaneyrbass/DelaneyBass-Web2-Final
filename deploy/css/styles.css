@@ -666,6 +666,7 @@ footer > div #socialfoot ul li a:visited:active {
 @media (min-width: 768px) {
   #events > div ul {
     grid-template-columns: repeat(6 1fr);
+    grid-template-rows: auto;
     grid-template-areas: "herspaceTop herspaceTop herspaceTop herspaceTop . . " "herspaceTop herspaceTop herspaceTop herspaceTop . . " " . . . letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace . . . " " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom" " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom";
   }
 }
