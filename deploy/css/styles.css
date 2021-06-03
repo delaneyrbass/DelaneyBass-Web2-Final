@@ -618,10 +618,11 @@ footer > div #socialfoot ul li a:visited:active {
   color: #F8E5D4;
 }
 #events > div ul {
+  grid-area: ". events .";
   display: grid;
   list-style-type: none;
   width: 100%;
-  grid-template-areas: "#herspaceTop" "#peace" "#letsget" "#herspaceBottom";
+  grid-template-areas: "herspaceTop" "peace" "letsget" "herspaceBottom";
 }
 #events > div ul #herspaceTop {
   background-color: #A877D0;
@@ -632,6 +633,7 @@ footer > div #socialfoot ul li a:visited:active {
   text-align: center;
   box-shadow: #462D5A;
   border-radius: 20px;
+  grid-area: herspaceTop;
 }
 #events > div ul #letsget {
   background-color: #F1B458;
@@ -642,6 +644,7 @@ footer > div #socialfoot ul li a:visited:active {
   text-align: center;
   box-shadow: #9D7336;
   border-radius: 20px;
+  grid-area: letsget;
 }
 #events > div ul #peace {
   background-color: #398A5F;
@@ -652,6 +655,7 @@ footer > div #socialfoot ul li a:visited:active {
   text-align: center;
   box-shadow: #276143;
   border-radius: 20px;
+  grid-area: peace;
 }
 #events > div ul #herspaceBottom {
   background-color: #EBA5E8;
@@ -662,11 +666,13 @@ footer > div #socialfoot ul li a:visited:active {
   text-align: center;
   box-shadow: #7B4F79;
   border-radius: 20px;
+  grid-area: herspaceBottom;
 }
 @media (min-width: 768px) {
   #events > div ul {
-    grid-template-columns: repeat(6 1fr);
-    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-areas: "herspaceTop herspaceTop herspaceTop herspaceTop . . " "herspaceTop herspaceTop herspaceTop herspaceTop . . " " . . . letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace . . . " " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom" " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom";
   }
 }
