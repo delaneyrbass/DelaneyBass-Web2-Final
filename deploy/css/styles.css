@@ -623,14 +623,7 @@ footer > div #social ul li a:visited:active {
   width: 100%;
   grid-template-areas: "#herspaceTop" "#peace" "#letsget" "#herspaceBottom";
 }
-@media (min-width: 768px) {
-  #events > div ul {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "#herspaceTop #herspaceTop" "#peace #letsget" "#herspaceBottom #herspaceBottom";
-  }
-}
-
-#herspaceTop {
+#events > div ul #herspaceTop {
   background-color: #A877D0;
   padding: 30px;
   margin-top: 20px;
@@ -640,8 +633,7 @@ footer > div #social ul li a:visited:active {
   box-shadow: #462D5A;
   border-radius: 20px;
 }
-
-#letsget {
+#events > div ul #letsget {
   background-color: #F1B458;
   padding: 30px;
   margin-top: 20px;
@@ -651,8 +643,7 @@ footer > div #social ul li a:visited:active {
   box-shadow: #9D7336;
   border-radius: 20px;
 }
-
-#peace {
+#events > div ul #peace {
   background-color: #398A5F;
   padding: 30px;
   margin-top: 20px;
@@ -662,8 +653,7 @@ footer > div #social ul li a:visited:active {
   box-shadow: #276143;
   border-radius: 20px;
 }
-
-#herspaceBottom {
+#events > div ul #herspaceBottom {
   background-color: #EBA5E8;
   padding: 30px;
   margin-top: 20px;
@@ -672,6 +662,12 @@ footer > div #social ul li a:visited:active {
   text-align: center;
   box-shadow: #7B4F79;
   border-radius: 20px;
+}
+@media (min-width: 768px) {
+  #events > div ul {
+    grid-template-columns: repeat(6 1fr);
+    grid-template-areas: "herspaceTop herspaceTop herspaceTop herspaceTop . . " "herspaceTop herspaceTop herspaceTop herspaceTop . . " " . . . letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace . . . " " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom" " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom";
+  }
 }
 
 button {
