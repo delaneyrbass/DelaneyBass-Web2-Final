@@ -452,6 +452,7 @@ header ul li {
 @media (min-width: 1024px) {
   header ul li {
     padding: 70px;
+    font-size: larger;
   }
 }
 header ul button {
@@ -670,10 +671,11 @@ footer > div #socialfoot ul li a:visited:active {
 }
 @media (min-width: 768px) {
   #events > div ul {
+    font-size: larger;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: "herspaceTop herspaceTop herspaceTop herspaceTop . . " "herspaceTop herspaceTop herspaceTop herspaceTop . . " " . . . letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace letsget letsget letsget" "peace peace peace . . . " " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom" " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom";
+    grid-template-areas: "herspaceTop herspaceTop herspaceTop herspaceTop herspaceTop . . " "herspaceTop herspaceTop herspaceTop herspaceTop herspaceTop . . " " . . . . letsget letsget letsget" "peace peace peace . letsget letsget letsget" "peace peace peace . letsget letsget letsget" "peace peace peace . . . . " " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom herspaceBottom" " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom herspaceBottom";
   }
 }
 
@@ -802,14 +804,22 @@ h1 {
   margin: 10px;
   padding: 20px;
   grid-template-columns: 50% auto;
-  grid-template-areas: "#piece1 #piece2" "#piece3 #piece4" "#piece5 #piece6";
+  grid-template-areas: "#piece1 #piece2" "purple2 yellow2" "#piece3 #piece4" "green2 purple3" "#piece5 #piece6" "yellow3 green3";
 }
 @media (min-width: 768px) {
   #artwork > div ul {
     margin: 20px;
     padding: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "#piece1 #piece2 #piece3" "#piece4 #piece5 #piece6";
+    grid-template-areas: "#piece1 #piece2 #piece3" "purple2 yellow2 green2" "#piece4 #piece5 #piece6" "purple3 yellow3 green3";
+  }
+}
+@media (min-width: 1024px) {
+  #artwork > div ul {
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "#piece1 #piece2 #piece3" "purple2 yellow2 green2" "#piece4 #piece5 #piece6" "purple3 yellow3 green3";
   }
 }
 #artwork #fullback2 {
@@ -827,36 +837,42 @@ h1 {
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: purple2;
 }
 #artwork #yellow2 {
   background-color: #F1B458;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: yellow2;
 }
 #artwork #green2 {
   background-color: #398A5F;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: green2;
 }
 #artwork #purple3 {
   background-color: #A877D0;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: purple3;
 }
 #artwork #yellow3 {
   background-color: #F1B458;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: yellow3;
 }
 #artwork #green3 {
   background-color: #398A5F;
   color: #F8E5D4;
   padding: 15px;
   margin: 10px;
+  grid-area: green3;
 }
 #artwork #social3 {
   display: flex;

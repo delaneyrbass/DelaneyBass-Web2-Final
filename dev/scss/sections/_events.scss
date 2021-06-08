@@ -62,19 +62,19 @@
             
 
             @include md {
-
+                font-size: larger;
                 display: grid;
-                grid-template-columns: repeat(6, 1fr) ;
+                grid-template-columns: repeat(7, 1fr) ;
                 grid-template-rows: repeat(8, 1fr);
                 grid-template-areas: 
-                "herspaceTop herspaceTop herspaceTop herspaceTop . . "
-                "herspaceTop herspaceTop herspaceTop herspaceTop . . "
-                " . . . letsget letsget letsget"
-                "peace peace peace letsget letsget letsget"
-                "peace peace peace letsget letsget letsget"
-                "peace peace peace . . . "
-                " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom"
-                " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom"
+                "herspaceTop herspaceTop herspaceTop herspaceTop herspaceTop . . "
+                "herspaceTop herspaceTop herspaceTop herspaceTop herspaceTop . . "
+                " . . . . letsget letsget letsget"
+                "peace peace peace . letsget letsget letsget"
+                "peace peace peace . letsget letsget letsget"
+                "peace peace peace . . . . "
+                " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom herspaceBottom"
+                " . . herspaceBottom herspaceBottom herspaceBottom herspaceBottom herspaceBottom"
 
                 ;
 
