@@ -630,7 +630,7 @@ footer > div #socialfoot ul li a:visited:active {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 30px;
+  margin-right: 30px;
   text-align: center;
   box-shadow: #462D5A;
   border-radius: 20px;
@@ -663,7 +663,7 @@ footer > div #socialfoot ul li a:visited:active {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 30px;
+  margin-left: 30px;
   text-align: center;
   box-shadow: #7B4F79;
   border-radius: 20px;
@@ -882,4 +882,8 @@ h1 {
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+#artwork h2 {
+  padding-top: 20px;
+  color: #F8E5D4;
 }
