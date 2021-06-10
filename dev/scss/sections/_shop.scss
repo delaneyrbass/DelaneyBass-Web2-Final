@@ -1,34 +1,37 @@
-#artwork{
+#artwork {
     background-color: #F8E5D4;
     padding: 20px;
     text-align: center;
-    img{
+
+    img {
         max-width: 100%;
         padding: 10px;
     }
-    >div{
+
+    >div {
         grid-area: artwork;
-        ul{
-                display: grid;
-                list-style-type: none;
-                margin: 10px;
-                padding: 20px;
-                grid-template-columns: 50% auto;
-                grid-template-areas: 
+
+        ul {
+            display: grid;
+            list-style-type: none;
+            margin: 10px;
+            padding: 20px;
+            grid-template-columns: 50% auto;
+            grid-template-areas:
                 "#piece1 #piece2"
                 "purple2 yellow2"
                 "#piece3 #piece4"
                 "green2 purple3"
                 "#piece5 #piece6"
                 "yellow3 green3"
-                ;
- 
-                @include md {
-                    
-                    margin: 20px;
-                    padding: 20px;
-                    grid-template-columns: repeat(3, 1fr) ;
-                    grid-template-areas: 
+            ;
+
+            @include md {
+
+                margin: 20px;
+                padding: 20px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
                     "#piece1 #piece2 #piece3"
                     "purple2 yellow2 green2"
                     "#piece4 #piece5 #piece6"
@@ -36,41 +39,43 @@
 
 
             }
+
             @include lg {
-                    
+
                 margin: 20px;
                 padding: 20px;
-                grid-template-columns: repeat(3, 1fr) ;
-                grid-template-areas: 
-                "#piece1 #piece2 #piece3"
-                "purple2 yellow2 green2"
-                "#piece4 #piece5 #piece6"
-                "purple3 yellow3 green3";
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
+                    "#piece1 #piece2 #piece3"
+                    "purple2 yellow2 green2"
+                    "#piece4 #piece5 #piece6"
+                    "purple3 yellow3 green3";
+
+
+            }
 
 
         }
 
-
-            }
-        
     }
 
-//-----Artwork-----//
+    //-----Artwork-----//
 
-#fullback2{
-    background-color: #A877D0;
-    border-radius: 20px;
-    padding: 40px;
-}
-#pieces{
-    background-color: #F8E5D4;
-    border-radius: 20px;
-    padding: 40px;
-}
+    #fullback2 {
+        background-color: #A877D0;
+        border-radius: 20px;
+        padding: 40px;
+    }
+
+    #pieces {
+        background-color: #F8E5D4;
+        border-radius: 20px;
+        padding: 40px;
+    }
 
 
-//-----buttons------//
-    #purple2{
+    //-----buttons------//
+    #purple2 {
         background-color: #A877D0;
         color: #F8E5D4;
         padding: 15px;
@@ -78,21 +83,23 @@
         grid-area: purple2;
     }
 
-    #yellow2{
+    #yellow2 {
         background-color: #F1B458;
         color: #F8E5D4;
         padding: 15px;
         margin: 10px;
         grid-area: yellow2;
     }
-    #green2{
+
+    #green2 {
         background-color: #398A5F;
         color: #F8E5D4;
         padding: 15px;
         margin: 10px;
         grid-area: green2;
     }
-    #purple3{
+
+    #purple3 {
         background-color: #A877D0;
         color: #F8E5D4;
         padding: 15px;
@@ -100,31 +107,34 @@
         grid-area: purple3;
     }
 
-    #yellow3{
+    #yellow3 {
         background-color: #F1B458;
         color: #F8E5D4;
         padding: 15px;
         margin: 10px;
         grid-area: yellow3;
     }
-    #green3{
+
+    #green3 {
         background-color: #398A5F;
         color: #F8E5D4;
         padding: 15px;
         margin: 10px;
         grid-area: green3;
     }
-    #social3{
+
+    #social3 {
         display: flex;
         justify-content: center;
-    
-        img{
+
+        img {
             padding: 20px;
             margin-bottom: 20px;
             margin-top: 20px;
-        } 
+        }
     }
-    h2{
+
+    h2 {
         padding-top: 20px;
         color: #F8E5D4;
     }
